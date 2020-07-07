@@ -6,19 +6,22 @@ body {
     margin: auto;
 }
 .profile-pic{
-
+    float: left;
+    margin: 15px;    
 }
-.pic {
+.pic-box {
     background-color: rgb(15, 15, 15);
+    height: 210px;
 }
 .pic-description {
-    background-color: rgb(22, 22, 22);
-    position: absolute;
-    top: 140px;
-    left: 180px;
-    width: 65%;
+    position: relative;
+    top: 65px;
+    left: 10px;
+    
+    /*position: absolute;
+    top: 100px;*/
 }
-#my-name {
+.my-name {
     background-color: rgb(10, 10, 0);
     font-family: Verdana;
     font-size: 14px;
