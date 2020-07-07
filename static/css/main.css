@@ -1,6 +1,27 @@
 body {
     background-color: rgb(32, 32, 32);
-    color:rgb(188, 192, 182)
+    color:rgb(188, 192, 182);
+    font-family: Courier;
+    width: 88%;
+    margin: auto;
+}
+.profile-pic{
+
+}
+.pic {
+    background-color: rgb(15, 15, 15);
+}
+.pic-description {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    top: 140px;
+    left: 180px;
+    width: 65%;
+}
+#my-name {
+    background-color: rgb(10, 10, 0);
+    font-family: Verdana;
+    font-size: 14px;
 }
 h1 {
     color: rgb(138, 181, 230)
@@ -10,4 +31,7 @@ p {
 }
 a {
     color: rgb(120, 151, 250)
+}
+.list {
+    font-weight: 600;
 }
