@@ -7,22 +7,40 @@ body {
 }
 .profile-pic{
     float: left;
-    margin: 15px;    
+    margin: 15px;
+    border-radius: 20%;
 }
 .pic-box {
-    background-color: rgb(15, 15, 15);
-    height: 210px;
+    background-color: rgb(45, 42, 40);
+    height: 205px;
 }
 .pic-description {
-    position: relative;
-    top: 65px;
-    left: 10px;
-    
-    /*position: absolute;
-    top: 100px;*/
+    padding-top: 50px;
+    /*position: relative;
+    top: 50px;
+    left: 10px;*/
+}
+.ul-bigger {
+    font-size: 17.5px;
+}
+.mid-pic {
+    float: left;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+.mid-pic-description {
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.col-right{
+    float: right;
+    width: 60%;
+    padding-top: 95px;
+    padding-right: 35px;
+    padding-left: 5px;
 }
 .my-name {
-    background-color: rgb(10, 10, 0);
     font-family: Verdana;
     font-size: 14px;
 }
