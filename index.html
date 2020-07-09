@@ -8,53 +8,57 @@
         <link href="/static/css/main.css" rel="stylesheet">
     </head>
     <body>
-        <div class="head-box">
-            <div class="head-content">
-                <img id="profile-pic" class="profile-pic" src="/static/images/profile-sketch.png" width="180px">
-                <div class="git-name">PedroBth
-                    <a href="https://github.com/pedrobth">
-                        <img id="github-pic" class="github-pic" src="/static/images/github-sq.png" width="20px">
-                    </a>
-                </div>                
-            </div>
-        </div>
-        <nav>
-            <!--<div>-->
-            <ul class="nav-item"><a class="nav-item" href="#">Portfolio</a></ul>
-            <ul class="nav-item"><a class="nav-item" href="#">Abilities</a></ul>
-            <ul class="nav-item"><a class="nav-item" href="#">About</a></ul>
-            <ul class="nav-item"><a class="nav-item" href="#">Things I like</a></ul>
-            <!--</div-->
-
-        </nav>
-            <p class="pic-description">
-                <h2>Pedro Merchioratto Risso</h2>
-                <strong>Here I am at the "Mirante Soberbo" near Teresopolis - RJ. Although some clouds are covering the "Dedo de Deus", it was a sunny day but not too warm, perfect for a hiking trail. Teresopolis has lots of trails, specially at "Serra dos Orgãos" National Park.</strong>
-            </p>
-        </div>
+        <header>
+            <div class="head-box">
+                <div class="head-content">
+                    <img id="profile-pic" class="profile-pic" src="/static/images/profile-sketch.png" width="180" alt="Mirante do Soberbo RJ">
+                    <div class="git-name">PedroBth
+                        <a href="https://github.com/pedrobth">
+                            <img id="github-pic" class="github-pic" src="/static/images/github-sq.png" width="20" alt="GitHub">
+                        </a>
+                    </div>
+                </div>
+            </div>        
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-item"><a class="nav-item" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-item" href="#">Abilities</a></li>
+                    <li class="nav-item"><a class="nav-item" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-item" href="#">Hobbies</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Pedro Merchioratto Risso</h2>
+        <p class="pic-description">                
+            <strong>Here I am at the "Mirante Soberbo" near Teresopolis - RJ. Although some clouds are covering the "Dedo de Deus", it was a sunny day but not too warm, perfect for a hiking trail. Teresopolis has lots of trails, specially at "Serra dos Orgãos" National Park.</strong>
+        </p>
         <p>I am a 35 Brazilian living in Rio de Janeiro - RJ. </p>
         <p id="about">I am passionate about technology and all it does to improve people's lives. I believe that much more can be delivered to improve life quality around the world. For me the key to achieve a better world is through education and providing access to trustful and quality knowledge. The internet is a powerful tool that allows this, but considering that is not regulated and also no content checking,it should be used carefully.</p>
         <div>
             <div class="col-right">
-                <img class="mid-pic" src="/static/images/profile_sketch.png" width="100px">
-                <spam class="mid-pic-description">Just me, and Vader in the background, during another "regular covid day", coding and learning.</spam>            
+                <img class="mid-pic" src="/static/images/profile_sketch.png" width="100" alt="Me coding">
+                <div class="mid-pic-description">Just me, and Vader in the background, during another "regular covid day", coding and learning.</div>
             </div>
-            <spam class="list" id="abilities">Some code abilities:
-                <ul class="bigger">Python</ul>
-                <ul>Flask</ul>
-                <ul>Bootstrap</ul>
-                <ul>Postgresql</ul>
-                <ul><a href="https://www.sqlalchemy.org/">SqlAlchemy</a></ul>
-                <ul>Html</ul>
-                <ul>Shell Script</ul>
-            </spam>
+            <div class="list" id="abilities">Some code abilities:
+                <ul>
+                    <li class="bigger">Python</li>
+                    <li>Flask</li>
+                    <li>Bootstrap</li>
+                    <li>Postgresql</li>
+                    <li><a href="https://www.sqlalchemy.org/">SqlAlchemy</a></li>
+                    <li>Html</li>
+                    <li>Shell Script</li>
+                </ul>
+            </div>
         </div>
-        <p>Some links I like:<br>
-        <a href="https://www.youtube.com/c/Coreyms" target="_blank">Corey Schafer Youtube channel</a><br>
-        <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/featured" target="blank">Free code camp Youtube channel</a><br>
-        <a href="#profile_pic">back to top</a>
-        </p>
-        <p>Site Map
+        <div>
+            <div>Some links I like:<br>
+                <a href="https://www.youtube.com/c/Coreyms" target="_blank">Corey Schafer Youtube channel</a><br>
+                <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ/featured" target="blank">Free code camp Youtube channel</a><br>
+                <a href="#profile_pic">back to top</a>
+            </div>
+        </div>
+        <div>Site Map
             <div>
                 <a href="#profile_pic">Profile Picture</a>
             </div>
@@ -63,6 +67,6 @@
             </div><div>
                 <a href="#about">About</a>
             </div>
-        </p>
+        </div>
     </body>
 </html>
