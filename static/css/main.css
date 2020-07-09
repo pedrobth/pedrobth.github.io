@@ -50,14 +50,17 @@ nav {
     background-color: rgb(48, 117, 200);
     height: 45px;
 }
-ul.nav-item {
+ul.nav-bar {
+    margin-top: 0px;
+}
+li.nav-item {
     display: inline-block;
+    margin: 15px 8px;
 }
 a.nav-item {
     text-decoration: none;
     text-transform: uppercase;
     font-weight:590;
-    letter-spacing: 1.1px;
     color: rgb(255, 255, 255);
 }
 ul {
