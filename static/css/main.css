@@ -1,26 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,700&display=swap');
 body {
     background-color: rgb(32, 32, 32);
-    color:rgb(188, 192, 182);
-    font-family: Courier;
-    width: 88%;
-    margin: auto;
+    color:rgb(240, 255, 255);
+    font-family: Exo;
+    margin: 0px 0px;
+}
+p {
+    color: rgb(188, 192, 182);
+}
+a {
+    color: rgb(120, 151, 250);
+}
+div.head-box {
+    border-top: 22px;
+    border-color: rgb(45, 42, 40);
+    border-top-style: solid;
+    background-color: rgb(201, 201, 201);
+    height: 220px;
+    padding: 1px;
+}
+.head-content{
+    margin: 25px 15px;
+    text-align: left;
 }
 .profile-pic{
+    position: relative;
+    margin: 0px 0px 0px 5px;
+    border-radius: 50%;
     float: left;
-    margin: 15px;
-    border-radius: 20%;
 }
-.pic-box {
-    background-color: rgb(45, 42, 40);
-    height: 205px;
+div.git-name {
+    font-family: Cabin;
+    font-size: 40px;
+    letter-spacing: -1.3px;
+    height: 80%;
+    color: rgb(48, 117, 200);
+    margin: 0px;
+    padding-top: 125px;
+    width: 375px;
+    height: 40px;
 }
 .pic-description {
-    padding-top: 50px;
-    /*position: relative;
-    top: 50px;
-    left: 10px;*/
+    margin-top: 30px;
+    margin-right: 60px;
+    font-size: 17px;
 }
-.ul-bigger {
+nav {
+    background-color: rgb(48, 117, 200);
+    height: 45px;
+}
+ul.nav-item {
+    display: inline-block;
+}
+a.nav-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:590;
+    letter-spacing: 1.1px;
+    color: rgb(255, 255, 255);
+}
+ul {
+    font-family: courier;
+}
+ul.bigger {
     font-size: 17.5px;
 }
 .mid-pic {
@@ -39,19 +82,6 @@ body {
     padding-top: 95px;
     padding-right: 35px;
     padding-left: 5px;
-}
-.my-name {
-    font-family: Verdana;
-    font-size: 14px;
-}
-h1 {
-    color: rgb(138, 181, 230)
-}
-p {
-    color: rgb(188, 192, 182)
-}
-a {
-    color: rgb(120, 151, 250)
 }
 .list {
     font-weight: 600;
